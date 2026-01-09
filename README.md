@@ -5,7 +5,8 @@
 这是一个基于深度学习的医疗诊断Python应用，主要功能包括：
 
 - **图像分割**：使用U-Net模型对医疗图像进行分割。
-- **文档分割**：使用NLP模型（来源：https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/feedback/issueDetail/12631）对文档进行分割处理。
+- **文档分割**：使用NLP模型对文档进行分割处理。
+  - 来源：https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/feedback/issueDetail/12631
 
 该项目使用Flask框架提供REST API接口，支持图像上传和分割结果返回。
 
