@@ -4,8 +4,8 @@
 
 这是一个基于深度学习的医疗诊断Python应用，主要功能包括：
 
-- **图像分割**：使用改进的U-Net模型（DASPP_ChannelAtte_UNet）对医疗图像进行分割。
-- **文档分割**：使用NLP模型对文档进行分割处理。
+- **图像分割**：使用U-Net模型对医疗图像进行分割。
+- **文档分割**：使用NLP模型（来源：https://modelscope.cn/models/iic/nlp_bert_document-segmentation_chinese-base/feedback/issueDetail/12631）对文档进行分割处理。
 
 该项目使用Flask框架提供REST API接口，支持图像上传和分割结果返回。
 
@@ -35,3 +35,10 @@
 - ModelScope 1.33.0
 - Transformers 4.48.3
 - HuggingFace-Hub 0.25.2
+
+
+## 模型及模型权重文件：
+- 文本分割模型：
+  - modelscope download --model iic/nlp_bert_document-segmentation_chinese-base README.md --local_dir ./dir
+- 图像分割模型：
+  - 链接: https://pan.baidu.com/s/1b_QgkPLH-smhjTBTWJqzxw?pwd=j6n5 提取码: j6n5 
